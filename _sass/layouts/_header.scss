@@ -2,90 +2,51 @@
  * Header
 \* ============================== */
 
+$header-height: 100px;
+
 /*
  * Site header
  */
 .site-header {
-    border-top: 5px solid color(gray-dark);
-    border-bottom: 1px solid color(gray-light);
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  border-bottom: 3px solid color(red);
+  height: $header-height;
+  padding: 10px 0;
 }
 
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: color(gray-dark);
-    }
+.site-header__logo {
+  height: 80px;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
+/*
+ * Navigation bar
+ */
+.nav {
+  display: inline;
+  line-height: $header-height;
+}
 
-    .menu-icon {
-        display: none;
-    }
+.nav__list {
+  display: inline-block;
+  float: right;
+  font-family: 'Helvetica', 'Futura', sans-serif;
+  font-weight: 700;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
 
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid color(gray-light);
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: color(gray-dark);
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+.nav__list__item {
+  display: inline;
+}
+.nav__list__item a {
+  color: color(black);
+  margin: $spacing-unit / 2;
+  padding: $spacing-unit / 2;
+}
+.nav__list__item a:hover {
+  background: color(red);
+  border-radius: 5px;
+  color: color(white);
+  text-decoration: none;
 }

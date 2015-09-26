@@ -5,20 +5,30 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base/normalize";
+
+// Helpers
 @import "helpers/functions";
 @import "helpers/colors";
 @import "helpers/variables";
 @import "helpers/scales";
 @import "helpers/mixins";
+
+// Base layouts
 @import "base/base";
 @import "base/typography";
+
+// Individual components
 @import "components/buttons";
 @import "components/mobile-menu";
 @import "components/post-snippet";
 @import "components/social-links";
+
+// Layout components
 @import "layouts/footer";
 @import "layouts/grid";
 @import "layouts/header";
+
+// Page specific
 @import "pages/about";
 @import "pages/contact";
 @import "pages/home";

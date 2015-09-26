@@ -2,12 +2,15 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+    <a href="{{ site.baseurl }}">
+      <img src="/assets/images/logo.jpg" class="site-header__logo" alt="">
+    </a>
 
     <nav class="nav">
-      <ul>
+      <ul class="nav__list">
         {% for link in site.links %}
-          <li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+          <li class="nav__list__item"><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
     </nav> <!-- /.nav -->
