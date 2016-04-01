@@ -1,0 +1,20 @@
+{
+  "name": "serconfeiteira",
+  "version": "1.0.0",
+  "description": "Blog Ser Confeiteira",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "confeitaria",
+    "blog",
+    "pessoal",
+    "chocolate",
+    "doces"
+  ],
+  "author": "Samara Saheli <sa.saheli@gmail.com>",
+  "license": "MIT"
+}

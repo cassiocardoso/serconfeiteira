@@ -2,36 +2,73 @@
  * Post Snippet
 \* ============================== */
 
+/*
+ * Post list
+ *
+ * ============================== */
+
 .post-list {
   margin: 0;
   padding: 0;
 }
 
-.post-list .post__wrapper {}
+.post-list .post__wrapper {
+  height: 400px;
+  position: relative;;
+}
+
+/*
+ * Post
+ *
+ * ============================== */
 
 .post-list .post {
   position: relative;
 }
 
-.post-list .post--featured {}
+/*
+ * Post featured
+ *
+ * ============================== */
+
+.post-list .post--featured {
+  color: color(white);
+}
+
+.post-list .post--featured .post__link {
+  color: color(white);
+}
 
 .post-list .post__background {
+  height: auto;
+  min-height: 250px;
+  max-height: 400px;
   position: absolute;
   right: 0;
   top: 0;
   width: 100%;
 }
 
+/*
+ * Post content
+ *
+ * ============================== */
+
 .post-list .post__content {
   margin: 0 auto;
   position: relative;
+  text-align: center;
   width: 90%;
   max-width: 750px;
 }
 
-.post-list .post__title {}
+.post-list .post__title {
+}
 
-.post-list .post__link {}
+.post-list .post__link {
+  color: color(black);
+
+}
 
 .post-list .post__tags {}
 
