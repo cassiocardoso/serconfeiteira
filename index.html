@@ -2,22 +2,54 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home-wrapper">
 
-  <h1 class="page-heading">Posts</h1>
+  <!--<h1 class="page-heading">Posts</h1>-->
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    {% for post in site.posts | limit: 5 %}
+      <li class="post__wrapper">
+        {% if post.featured %}
+          <div class="post post--featured">
+            <img src="{{ post.background_image }}" class="post__background" alt="{{ post.title }}">
+            <div class="post__content">
+              <span class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="post__title">
+                <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2> <!-- /.post__title -->
+              <p>Categoria: {{ post.categories }}</p>
+              <ul class="post__tags">
+                {% for tag in post.tags %}
+                  <li class="post__tag">{{ tag }}</li>
+                {% endfor %}
+              </ul> <!-- /.post__tags -->
+            </div> <!-- /.post__content -->
+          </div> <!-- /.post -->
+          {% else %}
+          <div class="post">
+            <div class="post__content">
+              <span class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="post__title">
+                <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2> <!-- /.post__title -->
+              <p>Categoria: {{ post.categories }}</p>
+              <ul class="post__tags">
+                {% for tag in post.tags %}
+                  <li class="post__tag">{{ tag }}</li>
+                {% endfor %}
+              </ul> <!-- /.post__tags -->
+            </div> <!-- /.post__content -->
+          </div> <!-- /.post -->
+        {% endif %}
+      </li> <!-- /.post__wrapper -->
     {% endfor %}
-  </ul>
+  </ul> <!-- /.post-list -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="pagination">
+    <button class="btn">Mais recentes</button>
+    <button class="btn">Mais antigos</button>
+  </div>
 
-</div>
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+
+</div> <!-- /.home -->

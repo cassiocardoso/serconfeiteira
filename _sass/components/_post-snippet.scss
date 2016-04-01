@@ -1,3 +1,38 @@
 /* ============================== *\
  * Post Snippet
 \* ============================== */
+
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+
+.post-list .post__wrapper {}
+
+.post-list .post {
+  position: relative;
+}
+
+.post-list .post--featured {}
+
+.post-list .post__background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.post-list .post__content {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  max-width: 750px;
+}
+
+.post-list .post__title {}
+
+.post-list .post__link {}
+
+.post-list .post__tags {}
+
+.post-list .post__tag {}

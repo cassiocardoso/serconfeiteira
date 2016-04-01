@@ -4,10 +4,46 @@
 
 /*
  * Wrapper
+ * Main page wrapper, used in default layout to wrap all page and set container
  */
-.wrapper {
+.page-wrapper {
   //@extend %clearfix;
   margin: 0 5%;
   width: 90%;
 
+}
+
+/*
+ * Wrapper
+ * Content wrapper, used in pages to set content container (a.k.a grid base)
+ */
+.grid {
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+.row--centered {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  border: 1px solid #ad2929;
+  background-color: #eee;
+}
+.col--half {
+  width: 50%;
+}
+.col--third {
+  width: 33.33333%;
+}
+.col--quarter {
+  width: 25%;
+}
+.col--fifth {
+  width: 20%;
 }
