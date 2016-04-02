@@ -2,8 +2,8 @@
 layout: post
 title:  "Dia das mães: Doces para presentear"
 date:   2015-05-09
-categories: "Datas Comemorativas"
-tags: "Dia das Mães" "Presentes Personalizados" "Receitas" "Dicas"
+categories: [Datas Comemorativas]
+tags: [Dia das Mães, Presentes Personalizados, Receitas, Dicas]
 featured: false
 background_image: /assets/images/posts/base.png
 ---

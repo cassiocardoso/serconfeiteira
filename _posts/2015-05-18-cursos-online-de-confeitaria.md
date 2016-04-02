@@ -2,8 +2,8 @@
 layout: post
 title:  "Cursos Online de Confeitaria"
 date:   2015-05-18
-categories: "Cursos" "Cursos Online"
-tags: Cursos "Cursos Online"
+categories: [Cursos", Cursos Online]
+tags: [Cursos, Cursos Online]
 featured: false
 background_image: /assets/images/posts/base.png
 ---

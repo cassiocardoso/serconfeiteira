@@ -2,8 +2,8 @@
 layout: post
 title: "Valentine's Day"
 date: 2015-02-11
-categories: "Datas Comemorativas"
-tags: Bombons "Brigadeiro Gourmet" "presentes personalizados" "Valentine's Day"
+categories: [Datas Comemorativas]
+tags: [Bombons, Brigadeiro Gourmet, presentes personalizados, Valentine's Day]
 featured: false
 background_image: /assets/images/posts/base.png
 ---

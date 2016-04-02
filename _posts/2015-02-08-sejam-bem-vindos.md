@@ -2,8 +2,8 @@
 layout: post
 title: "Sejam bem vindos"
 date: 2015-02-08
-categories: "Boas Vindas"
-tags: "Boas Vindas" "Post Pessoal"
+categories: [Boas Vindas]
+tags: [Boas Vindas, Post Pessoal]
 featured: false
 background_image: /assets/images/posts/base.png
 ---
