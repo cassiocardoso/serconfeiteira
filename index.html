@@ -17,16 +17,13 @@ layout: default
               <h2 class="post__title">
                 <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2> <!-- /.post__title -->
-              <p>Categoria: {{ post.categories }}</p>
               <ul class="post__tags">
                 {% for tag in post.tags %}
                   <li class="post__tag">{{ tag }}</li>
                 {% endfor %}
               </ul> <!-- /.post__tags -->
               <p class="post__excerpt">{{ post.excerpt }}</p>
-              <p>
-                <a href="#" class="post__cta">Ler mais</a>
-              </p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn--post__cta">Ler mais</a>
             </div> <!-- /.post__content -->
           </div> <!-- /.post -->
           {% else %}
@@ -36,22 +33,24 @@ layout: default
               <h2 class="post__title">
                 <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2> <!-- /.post__title -->
-              <p>Categoria: {{ post.categories }}</p>
               <ul class="post__tags">
                 {% for tag in post.tags %}
                   <li class="post__tag">{{ tag }}</li>
                 {% endfor %}
               </ul> <!-- /.post__tags -->
+              <p class="post__excerpt">{{ post.excerpt }}</p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn--post__cta">Ler mais</a>
             </div> <!-- /.post__content -->
           </div> <!-- /.post -->
+          <hr class="post__divider">
         {% endif %}
       </li> <!-- /.post__wrapper -->
     {% endfor %}
   </ul> <!-- /.post-list -->
 
   <div class="pagination">
-    <button class="btn">Mais recentes</button>
-    <button class="btn">Mais antigos</button>
+    <button class="btn btn--newer-posts">Mais recentes</button>
+    <button class="btn btn--older-posts">Mais antigos</button>
   </div>
 
   <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

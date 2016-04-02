@@ -2,8 +2,11 @@
  * Post Snippet
 \* ============================== */
 
+$post-snippet-title-size: 32px;
+$post-snippet-content-width: 40rem;
+
 /*
- * Post list
+ * Post list in the home page
  *
  * ============================== */
 
@@ -13,8 +16,9 @@
 }
 
 .post-list .post__wrapper {
-  height: 400px;
-  position: relative;;
+  height: auto;
+  margin-bottom: 2rem;
+  position: relative;
 }
 
 /*
@@ -26,6 +30,11 @@
   position: relative;
 }
 
+// Add some extra margin to posts (excluding the featured one)
+.post-list .post:not(.post--featured) {
+  margin: 1rem 0 1rem 0;
+}
+
 /*
  * Post featured
  *
@@ -33,20 +42,50 @@
 
 .post-list .post--featured {
   color: color(white);
+  height: 400px;
 }
 
 .post-list .post--featured .post__link {
   color: color(white);
 }
 
+.post-list .post--featured .post__content {
+  padding-top: 3rem;
+}
+
 .post-list .post__background {
-  height: auto;
-  min-height: 250px;
-  max-height: 400px;
+  height: 400px;
   position: absolute;
   right: 0;
   top: 0;
   width: 100%;
+}
+
+.post-list .post--featured .post__tags {
+  color: color(white);
+}
+
+.post-list .post--featured .post__tag {
+  color: color(gray-light);
+}
+
+.post--featured .btn--post__cta {
+  background-color: color(red);
+  border: none;
+  border-radius: 5px;
+  color: color(white);
+  display: block;
+  margin: 2rem auto 0 auto;
+  padding: .75rem 1rem;
+  text-align: center;
+  transition: all .4s ease-in-out;
+  width: 5rem;
+
+  &:hover {
+    background-color: darken(color(red), 15%);
+    color: color(white);
+    text-decoration: none;
+  }
 }
 
 /*
@@ -57,12 +96,21 @@
 .post-list .post__content {
   margin: 0 auto;
   position: relative;
-  text-align: center;
   width: 90%;
-  max-width: 750px;
+  max-width: $post-snippet-content-width;
+}
+
+.post-list .post__meta {
+  display: block;
+  text-align: center;
 }
 
 .post-list .post__title {
+  font-size: $post-snippet-title-size;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .post-list .post__link {
@@ -70,6 +118,68 @@
 
 }
 
-.post-list .post__tags {}
+.post-list .post__tags {
+  color: color(black);
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 
-.post-list .post__tag {}
+  &:before {
+    content: 'Tags: ';
+  }
+}
+
+.post-list .post__tag {
+  color: color(gray);
+  cursor: pointer;
+  display: inline-block;
+  padding: .25rem .5rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.post__excerpt {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.post-list .post:not(.post--featured) .btn--post__cta {
+  background-color: color(white);
+  display: block;
+  margin: 2rem auto 0 auto;
+  width: 5rem;
+
+  &:hover {
+    background-color: darken(color(red), 15%);
+    border-color: darken(color(red), 15%);
+    color: color(white);
+    text-decoration: none;
+  }
+}
+
+// Post divider
+.post__divider {
+  border: none;
+  border-bottom: 2px solid color(red);
+  margin: 3rem auto;
+  position: relative;
+  width: $post-snippet-content-width;
+
+  &:after {
+    background-color: color(white);
+    border: none;
+    border-left: 10px solid color(white);
+    border-right: 10px solid color(white);
+    border-radius: 50%;
+    content: '♥';
+    color: color(red);
+    font-size: 24px;
+    position: absolute;
+    top: -15px;
+    left: 48%;
+  }
+}

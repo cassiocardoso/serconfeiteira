@@ -1,3 +1,48 @@
 /* ============================== *\
  * Buttons
 \* ============================== */
+
+.btn {
+  background-color: color(white);
+  border-radius: 5px;
+  border: 2px solid color(red);
+  color: color(red);
+  padding: .5rem .75rem;
+  text-align: center;
+  transition: all .4s ease-in-out;
+
+  &:hover {
+    background-color: darken(color(red), 15%);
+    border-color: darken(color(red), 15%);
+    color: color(white);
+    text-decoration: none;
+  }
+}
+
+
+.btn--newer-posts {
+  border-color: color(gray);
+  color: color(gray);
+  margin-right: 1rem;
+
+  &:hover {
+    background-color: darken(color(gray), 15%);
+    border-color: darken(color(gray), 15%);
+    color: color(white);
+    text-decoration: none;
+  }
+
+  &:before {
+    content: '<';
+    padding-right: .5rem;
+  }
+}
+
+.btn--older-posts {
+  margin-left: 1rem;
+
+  &:after {
+    content: '>';
+    padding-left: .5rem;
+  }
+}
