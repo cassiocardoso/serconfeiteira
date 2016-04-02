@@ -41,13 +41,15 @@ $header-height: 100px;
   display: inline;
 }
 .nav__list__item a {
+  border-radius: 5px;
   color: color(black);
   margin: $spacing-unit / 2;
   padding: $spacing-unit / 2;
-}
-.nav__list__item a:hover {
-  background: color(red);
-  border-radius: 5px;
-  color: color(white);
-  text-decoration: none;
+  transition: all .4s ease-in-out;
+
+  &:hover {
+    background: color(red);
+    color: color(white);
+    text-decoration: none;
+  }
 }

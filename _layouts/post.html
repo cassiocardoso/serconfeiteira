@@ -2,15 +2,29 @@
 layout: default
 ---
 
-<div class="post-wrapper">
+<div class="post-page">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  <ul class="post-list">
+    <li class="post__wrapper">
+      <div class="post post--featured">
+        <img src="{{ page.background_image }}" class="post__background" alt="{{ page.title }}">
+        <div class="post__content">
+          <span class="post__meta">{{ page.date | date: "%-d/%m/%Y" }}</span>
+          <h1 class="post__title">
+            <a class="post__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </h1> <!-- /.post__title -->
+          <ul class="post__tags">
+            {% for tag in page.tags %}
+              <li class="post__tag">{{ tag }}</li>
+            {% endfor %}
+          </ul> <!-- /.post__tags -->
+        </div> <!-- /.post__content -->
+      </div> <!-- /.post -->
+    </li> <!-- /.post__wrapper -->
+  </ul> <!-- /.post-list -->
 
   <article class="post-content">
     {{ content }}
   </article>
 
-</div>
+</div> <!-- /.post-page -->

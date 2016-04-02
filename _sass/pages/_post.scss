@@ -2,19 +2,22 @@
  * Single Post
 \* ============================== */
 
-/*
- * Posts
- */
-.post-header {
-  margin-bottom: $spacing-unit;
+.post-page {}
+
+.post-page .post-list .post--featured .post__content {
+  padding-top: 8rem;
 }
 
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
+.post-page .post__title {
+  font-size: 40px;;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.post-content {
-  margin-bottom: $spacing-unit;
+.post-page .post-content {
+  margin: 3rem auto;
+  width: $post-snippet-content-width;
 }
+
+.post-page {}
