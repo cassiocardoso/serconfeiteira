@@ -3,22 +3,34 @@ layout: default
 permalink: /contato/
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, corrupti?
-  Voluptate eum amet aliquid ea dolor nemo quam cupiditate deserunt quaerat eius.
-  Vero ipsam labore deleniti, inventore nam porro amet.</p>
+<section class="contact-section">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, corrupti?
+    Voluptate eum amet aliquid ea dolor nemo quam cupiditate deserunt quaerat eius.
+    Vero ipsam labore deleniti, inventore nam porro amet.</p>
 
-<form action="">
-  <label for="name">Nome</label>
-  <input type="text" name="name">
+  <form action="" id="contact-form">
+    <div class="form-item">
+      <label class="contact-label" for="name">Nome</label>
+      <input class="contact-input" type="text" name="name">
+    </div> <!-- /.form-item -->
 
-  <label for="email">Email</label>
-  <input type="email" name="email">
+    <div class="form-item">
+      <label class="contact-label" for="email">Email</label>
+      <input class="contact-input" type="email" name="email">
+    </div> <!-- /.form-item -->
 
-  <label for="phone">Telefone</label>
-  <input type="text" name="phone">
+    <div class="form-item">
+      <label class="contact-label" for="phone">Telefone</label>
+      <input class="contact-input" type="text" name="phone">
+    </div> <!-- /.form-item -->
 
-  <label for="message">Mensagem</label>
-  <textarea name="message" rows="8" cols="40"></textarea>
+    <div class="form-item">
+      <label class="contact-label" for="message">Mensagem</label>
+      <textarea class="contact-input contact-input--message" name="message" rows="8" cols="40"></textarea>
+    </div> <!-- /.form-item -->
 
-  <input type="submit" value="Enviar">
-</form>
+    <div class="form-item">
+      <input type="submit" class="btn--primary" value="Enviar">
+    </div> <!-- /.form-item -->
+  </form>
+</section> <!-- /.contact-section -->

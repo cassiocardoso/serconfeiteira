@@ -1,3 +1,33 @@
 /* ============================== *\
  * Contact Page
 \* ============================== */
+
+.contact-section {
+  margin: 3rem auto;
+  width: $post-snippet-content-width;
+}
+
+.form-item {
+  margin: 1rem 0;
+}
+
+.contact-label {
+  display: inline-block;
+  width: 80px;
+}
+
+.contact-input {
+  border: 1px solid color(black);
+  outline: none;
+  padding: .25rem .5rem;
+  transition: all .4s ease-in-out;
+  width: 530px;
+
+  &:focus {
+    border-color: color(red);
+  }
+}
+
+.contact-input--message {
+  vertical-align: top;
+}
