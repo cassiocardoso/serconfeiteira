@@ -7,12 +7,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "www.serconfeiteira.com.br" # the base hostname & protocol for your site
+url: "http://serconfeiteira.com.br" # the base hostname & protocol for your site
 
-twitter_username: serconfeiteira
+twitter: serconfeiteira
+instagram: serconfeiteira
 
 # Permalink configuration
-permalink: /:title
+permalink: "/blog/:title/"
 
 # Pages links
 links:
@@ -22,6 +23,13 @@ links:
     url: /sobre
   - title: contato
     url: /contato
+
+# Gems
+gems: ["jekyll-paginate"]
+
+# Pagination
+paginate: 4
+paginate_path: "/blog/pag:num/"
 
 # Build settings
 markdown: kramdown

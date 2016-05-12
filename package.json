@@ -2,7 +2,7 @@
   "name": "serconfeiteira",
   "version": "1.0.0",
   "description": "Blog Ser Confeiteira",
-  "main": "index.js",
+  "main": "assets/js/app.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
@@ -15,6 +15,6 @@
     "chocolate",
     "doces"
   ],
-  "author": "Samara Saheli <sa.saheli@gmail.com>",
+  "author": "Cassio Cardoso <cassiocardoso@me.com>",
   "license": "MIT"
 }

@@ -11,8 +11,33 @@
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 12px;
   font-weight: 700;
-  padding: $spacing-unit/4 0;
+  padding: $spacing-unit 0;
   text-align: center;
 }
 
 .site-footer p {}
+
+
+.site-footer .heart {
+  fill: color(red);
+  padding: 0 .5rem;
+  position: relative;
+  top: 5px;
+  width: 1rem;
+  animation: pulse 2s ease infinite,
+}
+
+// Heart animation
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

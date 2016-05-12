@@ -7,7 +7,7 @@ layout: default
   <!--<h1 class="page-heading">Posts</h1>-->
 
   <ul class="post-list">
-    {% for post in site.posts | limit: 5 %}
+    {% for post in paginator.posts %}
       <li class="post__wrapper">
         {% if post.featured %}
           <div class="post post--featured">
@@ -48,11 +48,16 @@ layout: default
     {% endfor %}
   </ul> <!-- /.post-list -->
 
-  <div class="pagination">
-    <button class="btn btn--newer-posts">Mais recentes</button>
-    <button class="btn btn--older-posts">Mais antigos</button>
-  </div>
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a class="btn btn--newer-posts" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Mais recentes</a>
+      {% endif %}
 
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+      {% if paginator.next_page %}
+        <a class="btn btn--older-posts" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Mais antigos</a>
+      {% endif %}
+    </div> <!-- /.pagination -->
+  {% endif %}
 
 </div> <!-- /.home -->
