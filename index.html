@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Início
 ---
 
 <div class="home-wrapper">
@@ -12,33 +13,33 @@ layout: default
         {% if post.featured %}
           <div class="post post--featured">
             <img src="{{ post.background_image }}" class="post__background" alt="{{ post.title }}">
-            <div class="post__content">
-              <span class="post__meta">{{ post.date | date: "%-d/%m/%Y" }}</span>
+            <div class="post__container">
+              <span class="post__meta">{{ post.date | date: "%d/%m/%y" }}</span>
               <h2 class="post__title">
                 <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2> <!-- /.post__title -->
-              <ul class="post__tags">
+              <!--<ul class="post__tags">
                 {% for tag in post.tags %}
                   <li class="post__tag">{{ tag }}</li>
                 {% endfor %}
               </ul> <!-- /.post__tags -->
-              <p class="post__excerpt">{{ post.excerpt }}</p>
+              <p class="post__excerpt">{{ post.subtitle }}</p>
               <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn--post__cta">Ler mais</a>
             </div> <!-- /.post__content -->
           </div> <!-- /.post -->
           {% else %}
           <div class="post">
-            <div class="post__content">
-              <span class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <div class="post__container">
+              <span class="post__meta">{{ post.date | date: "%d/%m/%y" }}</span>
               <h2 class="post__title">
                 <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2> <!-- /.post__title -->
-              <ul class="post__tags">
+              <!--<ul class="post__tags">
                 {% for tag in post.tags %}
                   <li class="post__tag">{{ tag }}</li>
                 {% endfor %}
               </ul> <!-- /.post__tags -->
-              <p class="post__excerpt">{{ post.excerpt }}</p>
+              <p class="post__excerpt">{{ post.subtitle }}</p>
               <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn--post__cta">Ler mais</a>
             </div> <!-- /.post__content -->
           </div> <!-- /.post -->

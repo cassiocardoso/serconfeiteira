@@ -1,35 +1,45 @@
 ---
 layout: default
+title: Contato
 permalink: /contato/
 ---
 
 <section class="contact-section">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, corrupti?
-    Voluptate eum amet aliquid ea dolor nemo quam cupiditate deserunt quaerat eius.
-    Vero ipsam labore deleniti, inventore nam porro amet.</p>
+  <h1>Contato</h1>
 
-  <form action="" id="contact-form">
+  <p>Utilize o formulário abaixo para entrar em contato. Envie sua dúvida, sugestão ou comentário, eles são muito importantes para mim.</p>
+
+  <form id="contact-form" action="http://formspree.io/sa.saheli@gmail.com" method="post">
     <div class="form-item">
       <label class="contact-label" for="name">Nome</label>
-      <input class="contact-input" type="text" name="name">
+      <input class="contact-input" type="text" id="name" name="name" placeholder="Digite seu nome" required>
     </div> <!-- /.form-item -->
 
     <div class="form-item">
       <label class="contact-label" for="email">Email</label>
-      <input class="contact-input" type="email" name="email">
+      <input class="contact-input" type="email" id="email" name="_replyto" placeholder="nome@email.com.br" required>
     </div> <!-- /.form-item -->
 
     <div class="form-item">
       <label class="contact-label" for="phone">Telefone</label>
-      <input class="contact-input" type="text" name="phone">
+      <input class="contact-input" type="text" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+    </div> <!-- /.form-item -->
+
+    <div class="form-item">
+      <label class="contact-label" for="phone">Assunto</label>
+      <input class="contact-input" type="text" id="subject" name="subject" placeholder="Especifique o assunto da sua mensagem" required>
     </div> <!-- /.form-item -->
 
     <div class="form-item">
       <label class="contact-label" for="message">Mensagem</label>
-      <textarea class="contact-input contact-input--message" name="message" rows="8" cols="40"></textarea>
+      <textarea class="contact-input contact-input--message" id="message" name="message" rows="8" cols="40"></textarea>
     </div> <!-- /.form-item -->
 
     <div class="form-item">
+      <input type="hidden" name="_subject" value="Contato | Blog Ser Confeiteira">
+      <input type="hidden" name="_cc" value="caugusto.cardoso@gmail.com">
+      <input type="hidden" name="_next" value="/contato-obrigado/">
+      <input type="text" name="_gotcha" style="display:none">
       <input type="submit" class="btn--primary" value="Enviar">
     </div> <!-- /.form-item -->
   </form>

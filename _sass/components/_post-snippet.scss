@@ -2,7 +2,7 @@
  * Post Snippet
 \* ============================== */
 
-$post-snippet-title-size: 32px;
+$post-snippet-title-size: 40px;
 $post-snippet-content-width: 40rem;
 
 /*
@@ -49,8 +49,8 @@ $post-snippet-content-width: 40rem;
   color: color(white);
 }
 
-.post-list .post--featured .post__content {
-  padding-top: 3rem;
+.post-list .post--featured .post__container {
+  padding-top: 5rem;
 }
 
 .post-list .post__background {
@@ -93,7 +93,7 @@ $post-snippet-content-width: 40rem;
  *
  * ============================== */
 
-.post-list .post__content {
+.post-list .post__container {
   margin: 0 auto;
   position: relative;
   width: 90%;
@@ -142,7 +142,7 @@ $post-snippet-content-width: 40rem;
 }
 
 .post__excerpt {
-  text-align: left;
+  text-align: center;
   margin-bottom: 1rem;
 }
 

@@ -2,7 +2,7 @@
  * Header
 \* ============================== */
 
-$header-height: 100px;
+$header-height: 120px;
 
 /*
  * Site header
@@ -45,7 +45,7 @@ $header-height: 100px;
   color: color(black);
   margin: $spacing-unit / 2;
   padding: $spacing-unit / 2;
-  transition: all .4s ease-in-out;
+  transition: all .3s ease-in-out;
 
   &:hover {
     background: color(red);
