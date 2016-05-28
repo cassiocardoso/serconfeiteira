@@ -2,8 +2,8 @@
 layout: post
 title:  "Cursos Online de Confeitaria"
 subtitle: "Como em qualquer área, nós precisamos sempre nos atualizar, e os cursos online podem nos fornecer um bom aprendizado, de uma maneira rápida, de fácil entendimento e alguns ainda fornecem a opção de um certificado no final."
-date:   2015-05-18
-categories: [Cursos", Cursos Online]
+date:   2016-05-20
+categories: [Cursos, Cursos Online]
 tags: [Cursos, Cursos Online]
 featured: false
 background_image: /assets/images/posts/base.png
