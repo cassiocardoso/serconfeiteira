@@ -39,7 +39,7 @@ $post-title-size: 60px;
     text-shadow: -1px 1px 1px color(black);
 
     @media screen and (min-width: 769px) {
-      font-size: $post-title-size * .75;      
+      font-size: $post-title-size * .75;
     }
     @media screen and (min-width: 1025px) {
       font-size: $post-title-size;
@@ -85,6 +85,16 @@ $post-title-size: 60px;
  * ============================== */
 
 .post-page .post__body {
+  margin: 3rem auto;
+  width: $post-snippet-content-width;
+}
+
+/*
+ * Post Body
+ *
+ * ============================== */
+
+.post-page .post__footer {
   margin: 3rem auto;
   width: $post-snippet-content-width;
 }
