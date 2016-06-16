@@ -13,7 +13,7 @@ $post-title-size: 60px;
   .post__header {
     background-size: cover;
     color: color(white);
-    height: 160px;
+    height: 200px;
     padding: 3rem 0;
     position: relative;
     text-align: center;
@@ -90,11 +90,17 @@ $post-title-size: 60px;
 }
 
 /*
- * Post Body
+ * Post Footer
  *
  * ============================== */
 
 .post-page .post__footer {
-  margin: 3rem auto;
+  margin: 0 auto;
   width: $post-snippet-content-width;
+}
+
+/* AddThis customization */
+
+.share-wrapper {
+  margin: 2rem 0;
 }

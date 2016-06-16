@@ -6,26 +6,55 @@
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 300;
+  line-height: $base-line-height;
+  -webkit-text-size-adjust: 100%;
 }
 
 /*
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 /*
  * Figures
  */
+figure {
+  margin: 0;
+  margin-bottom: 1rem;
+  position: relative;
+}
 figure > img {
-    display: block;
+  display: block;
+}
+figure figcaption {
+  background-color: rgba(255, 255, 255, .75);
+  bottom: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  opacity: 0;
+  padding: .5rem;
+  position: absolute;
+  text-align: center;
+  transition: opacity .4s linear;
+  width: 100%;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+
+/*
+ * Code
+ */
+code {
+  background-color: color(white);
+  color: color(red);
+  padding: .25rem;
 }
