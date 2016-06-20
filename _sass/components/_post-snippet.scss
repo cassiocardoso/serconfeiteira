@@ -42,7 +42,11 @@ $post-snippet-content-width: 40rem;
 
 .post-list .post--featured {
   color: color(white);
-  height: 400px;
+  height: 350px;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    height: 400px;
+  }
 }
 
 .post-list .post--featured .post__link {
@@ -50,15 +54,23 @@ $post-snippet-content-width: 40rem;
 }
 
 .post-list .post--featured .post__container {
-  padding-top: 5rem;
+  padding-top: 2rem;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    padding-top: 5rem;
+  }
 }
 
 .post-list .post__background {
-  height: 400px;
+  height: 350px;
   position: absolute;
   right: 0;
   top: 0;
   width: 100%;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    height: 400px;
+  }
 }
 
 .post-list .post--featured .post__tags {
@@ -106,10 +118,14 @@ $post-snippet-content-width: 40rem;
 }
 
 .post-list .post__title {
-  font-size: $post-snippet-title-size;
+  font-size: 32px;
   margin-top: 0;
   margin-bottom: 1rem;
   text-align: center;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    font-size: $post-snippet-title-size;
+  }
 }
 
 .post-list .post__link {
@@ -166,7 +182,7 @@ $post-snippet-content-width: 40rem;
   border-bottom: 2px solid color(red);
   margin: 3rem auto;
   position: relative;
-  width: $post-snippet-content-width;
+  width: 90%;
 
   &:after {
     background-color: color(white);
@@ -180,5 +196,9 @@ $post-snippet-content-width: 40rem;
     position: absolute;
     top: -15px;
     left: 48%;
+  }
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    width: $post-snippet-content-width;
   }
 }

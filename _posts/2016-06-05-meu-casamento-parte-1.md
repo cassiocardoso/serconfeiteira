@@ -83,7 +83,7 @@ Alguns detalhes da festa que eu quero compartilhar com vocês:
 
 <figure>
   <img src="/assets/images/posts/casamento01_05.jpg" alt="Garrafinhas decoradas nas mesas">
-  <figcaption>Essas garrafinhas eu consegui no hotel onde eu trabalho. Foram decoradas com cartão e mini-lousa que comprei na nossa querida 25 de março.</figcaption>
+  <figcaption>Essas garrafinhas eu consegui no hotel onde eu trabalho. Foram decoradas com cordão e mini-lousa que comprei na nossa querida 25 de março.</figcaption>
 </figure>
 
 <figure>
@@ -91,6 +91,6 @@ Alguns detalhes da festa que eu quero compartilhar com vocês:
   <figcaption>Meu lindo buquê e a mãozinha da minha vovó maravilhosa.</figcaption>
 </figure>
 
-Bem, estes foi o primeiro relato sobre o meu casamento. No próximo post irei contar sobre as lembrancinhas que fizemos para os padrinhos, convidados, mães, tias, avós e um bônus especial para as irmãs.
+Bem, este foi o primeiro relato sobre o meu casamento. No próximo post irei contar sobre as lembrancinhas que fizemos para os padrinhos, convidados, mães, tias, avós e um bônus especial para as irmãs.
 
 Espero que tenham gostado. Se gostaram, comentem e compartilhem.

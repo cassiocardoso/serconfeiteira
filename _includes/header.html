@@ -3,11 +3,12 @@
   <div class="page-wrapper">
 
     <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
-    <a href="/">
+    <a href="/" class="site-header__link">
       <img src="/assets/images/logo.jpg" class="site-header__logo" alt="Logo do site">
     </a>
 
     <nav class="nav">
+      <button class="btn nav__toggle">Menu</button>
       <ul class="nav__list">
         {% for link in site.links %}
           <li class="nav__list__item"><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>

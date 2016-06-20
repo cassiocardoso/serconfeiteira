@@ -14,7 +14,7 @@ Olá,
 este é meu primeiro post no blog e gostaria de me apresentar de uma forma diferente.
 O Ser confeiteira foi criado após vários fatores:
 
-Com a montagem da minha empresa Saheli Confeitaria Gourmet, eu passei a receber muitas mensagens de pessoas que estavam querendo ingressar na área de confeitaria, mas que não sabiam exatamente o caminho.
+Com a montagem da minha empresa **Saheli Confeitaria Gourmet**, eu passei a receber muitas mensagens de pessoas que estavam querendo ingressar na área de confeitaria, mas que não sabiam exatamente o caminho.
 
 Me perguntavam sobre como eu comecei, como eu desenvolvia minhas receitas, onde elas podiam comprar produtos de confeitaria com os melhores preços, como escolher a melhor embalagem, como colocar preço nos doces, como montar uma confeitaria, como eu conseguia tirar tantas fotos legais, como eu escolhi o nome para a minha marca, quais cursos eu gosto de fazer, quais lugares são legais para provar doces e eu sempre adorava responder cada uma das perguntas, pois logo no começo quando resolvi passar a trabalhar por minha conta eu sentia muita dificuldade em encontrar na internet informações mais específicas sobre a paixão por confeitar.
 

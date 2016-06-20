@@ -2,20 +2,43 @@
  * Header
 \* ============================== */
 
-$header-height: 120px;
+$header-height--sm: 60px;
+$header-height--lg: 120px;
 
 /*
  * Site header
  */
 .site-header {
   border-bottom: 3px solid color(red);
-  height: $header-height;
+  height: $header-height--sm;
   padding: 10px 0;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    height: $header-height--lg;
+  }
+}
+
+.site-header__link {
+  line-height: $header-height--sm;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    line-height: $header-height--lg;
+  }
 }
 
 .site-header__logo {
   cursor: pointer;
-  height: 80px;
+  height: auto;
+  width: 180px;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    height: 80px;
+    width: auto;
+  }
 }
 
 /*
@@ -23,11 +46,30 @@ $header-height: 120px;
  */
 .nav {
   display: inline;
-  line-height: $header-height;
+  line-height: $header-height--sm;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    line-height: $header-height--lg;
+  }
+}
+
+// Nav toggle. aka hamburguer button
+// Override default btn styles
+.nav__toggle {
+  font-weight: 700;
+  height: 35px;
+  letter-spacing: .1rem;
+  line-height: 16px;
+  padding: .5rem;
+  text-transform: uppercase;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    display: none;
+  }
 }
 
 .nav__list {
-  display: inline-block;
+  display: none;
   float: right;
   font-family: $base-font-family;
   font-weight: 700;
@@ -35,6 +77,11 @@ $header-height: 120px;
   margin: 0;
   padding: 0;
   text-transform: capitalize;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    display: inline-block;
+    line-height: $header-height--lg;
+  }
 }
 
 .nav__list__item {
