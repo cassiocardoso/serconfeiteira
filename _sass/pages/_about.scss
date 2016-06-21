@@ -3,15 +3,28 @@
 \* ============================== */
 
 .about-page {
-  margin: 3rem auto;
-  width: $post-snippet-content-width;
+  margin: 1rem auto;
+  width: 90%;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    margin: 3rem auto;
+    width: $post-snippet-content-width;
+  }
 }
 
 .about__title {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    margin-bottom: 2rem;
+  }
 }
 
 .about__photo {
-  height: 150px;
+  height: 100px;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    height: 100px;
+  }
 }

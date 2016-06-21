@@ -11,12 +11,13 @@
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 12px;
   font-weight: 700;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit/4 0;
   text-align: center;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    padding: $spacing-unit 0;
+  }
 }
-
-.site-footer p {}
-
 
 .site-footer .heart {
   fill: color(red);

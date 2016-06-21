@@ -13,11 +13,16 @@ $post-title-size: 60px;
   .post__header {
     background-size: cover;
     color: color(white);
-    height: 200px;
-    padding: 3rem 0;
+    height: 120px;
+    padding: 1rem 0;
     position: relative;
     text-align: center;
     width: 100%;
+
+    @media only screen and (min-width: $breakpoint-sm) {
+      height: 200px;
+      padding: 3rem 0;
+    }
   }
 
   .post__meta {
@@ -85,8 +90,13 @@ $post-title-size: 60px;
  * ============================== */
 
 .post-page .post__body {
-  margin: 3rem auto;
-  width: $post-snippet-content-width;
+  margin: 1rem auto;
+  width: 90%;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    margin: 3rem auto;
+    width: $post-snippet-content-width;
+  }
 }
 
 /*
@@ -96,7 +106,11 @@ $post-title-size: 60px;
 
 .post-page .post__footer {
   margin: 0 auto;
-  width: $post-snippet-content-width;
+  width: 90%;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    width: $post-snippet-content-width;
+  }
 }
 
 /* AddThis customization */

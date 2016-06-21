@@ -3,8 +3,13 @@
 \* ============================== */
 
 .contact-section {
-  margin: 3rem auto;
-  width: $post-snippet-content-width;
+  margin: 1rem auto;
+  width: 90%;
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    margin: 3rem auto;
+    width: $post-snippet-content-width;
+  }
 }
 
 .form-item {
@@ -23,10 +28,14 @@
   outline: none;
   padding: .5rem .75rem;
   transition: all .4s ease-in-out;
-  width: 100%;
+  width: 90%;
 
   &:focus {
     border-color: color(red);
+  }
+
+  @media only screen and (min-width: $breakpoint-sm) {
+    width: 100%;
   }
 }
 
