@@ -8,7 +8,7 @@
     </a>
 
     <nav class="nav">
-      <button class="btn nav__toggle" onclick="toggleMenu()">Menu</button>
+      <button class="btn nav__toggle" onClick="toggleMenu()">Menu</button>
       <ul class="nav__list">
         {% for link in site.links %}
           <li class="nav__list__item"><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>

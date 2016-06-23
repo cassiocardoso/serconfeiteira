@@ -87,10 +87,10 @@ $header-height--lg: 120px;
   z-index: 200;
 
   @media only screen and (min-width: $breakpoint-sm) {
-    background-color: color(white);
     display: inline;
     float: none;
     line-height: $header-height--lg;
+    opacity: 1;
     position: relative;
   }
 }
@@ -105,9 +105,14 @@ $header-height--lg: 120px;
 
   &:first-child {
     border-top: 2px solid color(red);
+
+    @media only screen and (min-width: $breakpoint-sm) {
+      border: none;
+    }
   }
 
   @media only screen and (min-width: $breakpoint-sm) {
+    border: none;
     display: inline;
   }
 }

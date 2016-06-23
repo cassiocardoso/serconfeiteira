@@ -2,7 +2,6 @@
 // var menuBtn = document.querySelector('.nav__toggle');
 
 function toggleMenu() {
-    var menuBtn = document.querySelector('.nav__toggle');
-
-    menuBtn.classList.add('is-visible');
+    var nav = document.querySelector('.nav__list');
+    nav.classList.toggle('is-visible');
 }
