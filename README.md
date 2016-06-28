@@ -2,4 +2,4 @@
 :cake: Blog Ser Confeiteira :doughnut:
 
 :construction: Development in progress.
-Version 1.0
+Version 0.1.0
