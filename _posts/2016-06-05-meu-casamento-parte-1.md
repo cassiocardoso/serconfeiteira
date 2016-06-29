@@ -5,7 +5,7 @@ subtitle: "Hoje entro em um clima super romântico para falar sobre um dos dias 
 date: 2016-06-05
 categories: [Casamento]
 tags: [Casamento, Decoração, Doces]
-featured: true
+featured: false
 background_image: /assets/images/posts/casamento01_banner.jpg
 ---
 
