@@ -23,8 +23,14 @@ links:
   - title: contato
     url: /contato
 
+# Open graph variables
+fb_admins: https://www.facebook.com/samara.saheli
+fb_appid: 237812806611517
+
 # Gems
-gems: ["jekyll-paginate"]
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Pagination
 paginate: 4
