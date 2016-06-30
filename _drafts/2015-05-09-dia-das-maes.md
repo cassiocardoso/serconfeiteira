@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Dia das mães: Doces para presentear"
+description: "Lorem ipsum dolor."
 date:   2015-05-09
-categories: [Datas Comemorativas]
-tags: [Dia das Mães, Presentes Personalizados, Receitas, Dicas]
+categories: ["Datas Comemorativas"]
+tags: ["Dia das Mães", "Presentes Personalizados", "Receitas", "Dicas"]
 featured: false
-background_image: /assets/images/posts/base.png
+image: /assets/images/posts/base.png
 ---
 
 O dia das mães é uma data comemorativa mundial, sendo comemorada em diversos países, inclusive aqui no Brasil, no segundo domingo de Maio. Existem diversas formas de fazer algo especial para esta data.

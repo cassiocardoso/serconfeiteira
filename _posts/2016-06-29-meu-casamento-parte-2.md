@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Meu Casamento<br>Parte 2: O bolo e o buquê"
-subtitle: "Continuando a série sobre o meu casamento, hoje vou falar sobre duas coisas que adorei: o bolo e o buquê."
+description: "Continuando a série sobre o meu casamento, hoje vou falar sobre duas coisas que adorei: o bolo e o buquê."
 date: 2016-06-29
-categories: [Casamento]
-tags: [Casamento, Decoração, Bolo de Casamento, Buquê de noiva]
+categories: ["Casamento"]
+tags: ["Casamento", "Decoração", "Bolo de Casamento", "Buquê de noiva"]
 featured: true
-background_image: /assets/images/posts/casamento01_banner.jpg
+image: /assets/images/posts/casamento01_banner.jpg
 ---
 
 Olá pessoal, hoje vou dar continuidade à série de posts sobre o meu casamento, para falar de duas coisas que adorei: o bolo e o meu buquê.

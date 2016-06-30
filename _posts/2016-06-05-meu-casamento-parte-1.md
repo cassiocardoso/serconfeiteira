@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Meu Casamento<br>Parte 1: Introdução"
-subtitle: "Hoje entro em um clima super romântico para falar sobre um dos dias mais felizes da minha vida: o meu casamento."
+description: "Hoje entro em um clima super romântico para falar sobre um dos dias mais felizes da minha vida: o meu casamento."
 date: 2016-06-05
-categories: [Casamento]
-tags: [Casamento, Decoração, Doces]
+categories: ["Casamento"]
+tags: ["Casamento", "Decoração", "Doces"]
 featured: false
-background_image: /assets/images/posts/casamento01_banner.jpg
+image: /assets/images/posts/casamento01_banner.jpg
 ---
 
 Olá pessoal, hoje entro em um clima super romântico para falar sobre um dos dias mais felizes da minha vida: o meu casamento.

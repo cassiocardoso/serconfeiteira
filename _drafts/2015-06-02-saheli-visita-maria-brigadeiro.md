@@ -2,11 +2,11 @@
 layout: post
 title: "Saheli Visita: Maria Brigadeiro"
 date: 2016-03-31
-categories: [Saheli Visita]
-tags: [Brigadeiro Gourmet, Saheli Visita, Maria Brigadeiro, São Paulo]
+description: "Lorem ipsum dolor."
+categories: ["Saheli Visita"]
+tags: ["Brigadeiro Gourmet", "Saheli Visita", "Maria Brigadeiro", "São Paulo"]
 featured: true
-background_image: /assets/images/posts/base.png
-excerpt: Lorem ipsum dolor sit amet consecut. Lorem ipsum dolor sit amet consecut. Lorem ipsum dolor sit amet consecut. Lorem ipsum dolor sit amet consecut. Lorem ipsum dolor sit amet consecut. Lorem ipsum dolor sit amet consecut.
+image: /assets/images/posts/base.png
 ---
 
 Hoje eu começo uma série de posts onde vou contar minhas experiências sobre os lugares que estou conhecendo aqui em São Paulo.

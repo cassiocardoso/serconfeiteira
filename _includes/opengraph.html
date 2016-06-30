@@ -1,0 +1,11 @@
+<!-- Facebook/Open Graph -->
+<meta property="fb:admins" content="{{ site.fb_admins }}">
+<meta property="fb:app_id" content="{{ site.fb_appid }}">
+<meta property="og:url" content="http://serconfeiteira.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | Ser Confeiteira">
+<meta property="og:image" content="{% if page.background_image %}{{ page.background_image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+<meta property="og:description" content="{% if page.subtitle %} {{ page.subtitle | strip_html | strip_newlines | truncate: 160 }} {% else %} Esse espaço foi criado para compartilhar as experiências e aprendizados de Samara Saheli no mundo da confeitaria e dar dicas para ajudar quem está começando. {% endif %}">
+<meta property="og:site_name" content="Ser Confeiteira">
+<meta property="og:locale" content="pt_BR">
+<meta property="article:author" content="Samara Saheli">

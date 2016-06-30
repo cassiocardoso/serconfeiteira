@@ -12,7 +12,7 @@ title: Início
       <li class="post__wrapper">
         {% if post.featured | limit: 1 %}
           <div class="post post--featured">
-            <img src="{{ post.background_image }}" class="post__background" alt="{{ post.title }}">
+            <img src="{{ post.image }}" class="post__background" alt="{{ post.title }}">
             <div class="post__container">
               <span class="post__meta">{{ post.date | date: "%d/%m/%y" }}</span>
               <h2 class="post__title">
@@ -23,7 +23,7 @@ title: Início
                   <li class="post__tag">{{ tag }}</li>
                 {% endfor %}
               </ul> <!-- /.post__tags -->
-              <p class="post__excerpt">{{ post.subtitle }}</p>
+              <p class="post__excerpt">{{ post.description }}</p>
               <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn--post__cta">Ler mais</a>
             </div> <!-- /.post__content -->
           </div> <!-- /.post -->
@@ -39,7 +39,7 @@ title: Início
                   <li class="post__tag">{{ tag }}</li>
                 {% endfor %}
               </ul> <!-- /.post__tags -->
-              <p class="post__excerpt">{{ post.subtitle }}</p>
+              <p class="post__excerpt">{{ post.description }}</p>
               <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn--post__cta">Ler mais</a>
             </div> <!-- /.post__content -->
           </div> <!-- /.post -->

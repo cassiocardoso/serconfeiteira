@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Docinhos para Casamento: Camafeu Real"
-subtitle: "Lorem ipsum dolor sit amet consecut dit. Lorem ipsum dolor sit amet consecut dit. Lorem ipsum dolor sit amet consecut dit."
+description: "Lorem ipsum dolor sit amet consecut dit. Lorem ipsum dolor sit amet consecut dit. Lorem ipsum dolor sit amet consecut dit."
 date: 2016-05-28
-categories: [Casamento]
-tags: [Casamento, Doces Especiais]
+categories: ["Casamento"]
+tags: ["Casamento", "Doces Especiais"]
 featured: true
-background_image: /assets/images/posts/base.png
+image: /assets/images/posts/base.png
 ---
 
 Olá pessoal, já faz um tempo que eu não escrevo aqui no blog, mas desde que me mudei para São Paulo, a minha vida anda um pouco maluca. rs

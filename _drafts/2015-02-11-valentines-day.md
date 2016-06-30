@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Valentine's Day"
+description: "Lorem ipsum dolor."
 date: 2015-02-11
 categories: [Datas Comemorativas]
 tags: [Bombons, Brigadeiro Gourmet, presentes personalizados, Valentine's Day]
 featured: false
-background_image: /assets/images/posts/base.png
+image: /assets/images/posts/base.png
 ---
 
 Eu vou ser franca, sabe como descobri sobre o Valentine’s Day? Comecei a namorar no dia 03 de fevereiro de 2013 e meu namorado comentou sobre o Valentine’s Day.

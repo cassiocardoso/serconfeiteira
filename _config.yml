@@ -1,15 +1,25 @@
 # Site settings
 title: Ser Confeiteira
+url: "http://serconfeiteira.com.br" # the base hostname & protocol for your site
+author: Samara Saheli
 email: contato@serconfeiteira.com.br
+logo: /assets/images/logo.jpg
 description: > # this means to ignore newlines until "baseurl:"
   Um blog sobre o dia-a-dia de se trabalhar com confeitaria. Os aprendizados e
   descobrimentos desse mundo de delícias.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://serconfeiteira.com.br" # the base hostname & protocol for your site
 
-twitter: serconfeiteira
-instagram: serconfeiteira
+twitter:
+  username: serconfeiteira
+
+instagram:
+  username: serconfeiteira
+
+facebook:
+  app_id: 237812806611517
+  publisher: https://www.facebook.com/serconfeiteira
+  admins: https://www.facebook.com/samara.saheli
 
 # Permalink configuration
 permalink: "/blog/:title/"
@@ -22,10 +32,6 @@ links:
     url: /sobre
   - title: contato
     url: /contato
-
-# Open graph variables
-fb_admins: https://www.facebook.com/samara.saheli
-fb_appid: 237812806611517
 
 # Gems
 gems:

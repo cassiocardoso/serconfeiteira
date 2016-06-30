@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Sejam bem vindos"
-subtitle: "Olá! Esse espaço foi criado para compartilhar minhas experiências no mundo da confeitaria, os aprendizados que tive e dar dicas para ajudar quem está começando."
+description: "Olá! Esse espaço foi criado para compartilhar minhas experiências no mundo da confeitaria, os aprendizados que tive e dar dicas para ajudar quem está começando."
 date: 2016-05-10
-categories: [Boas Vindas]
-tags: [Boas Vindas, Post Pessoal]
+categories: ["Boas Vindas"]
+tags: ["Boas Vindas", "Post Pessoal"]
 featured: false
-background_image: /assets/images/posts/base.png
+image: /assets/images/posts/base.png
 ---
 
 Olá,
