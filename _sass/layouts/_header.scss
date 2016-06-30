@@ -2,8 +2,8 @@
  * Header
 \* ============================== */
 
-$header-height--sm: 60px;
-$header-height--lg: 120px;
+$header-height--sm: 40px;
+$header-height--lg: 80px;
 
 /*
  * Site header
@@ -36,7 +36,7 @@ $header-height--lg: 120px;
   width: 180px;
 
   @media only screen and (min-width: $breakpoint-sm) {
-    height: 80px;
+    height: 60px;
     width: auto;
   }
 }
@@ -56,11 +56,12 @@ $header-height--lg: 120px;
 // Nav toggle. aka hamburguer button
 // Override default btn styles
 .nav__toggle {
+  font-size: 12px;
   font-weight: 700;
-  height: 35px;
+  height: 28px;
   letter-spacing: .1rem;
   line-height: 16px;
-  padding: .5rem;
+  padding: .25rem;
   text-transform: uppercase;
 
   @media only screen and (min-width: $breakpoint-sm) {
