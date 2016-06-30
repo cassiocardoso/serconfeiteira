@@ -13,14 +13,14 @@ $post-title-size: 60px;
   .post__header {
     background-size: cover;
     color: color(white);
-    height: 120px;
+    height: 200px;
     padding: 1rem 0;
     position: relative;
     text-align: center;
     width: 100%;
 
     @media only screen and (min-width: $breakpoint-sm) {
-      height: 200px;
+      height: 320px;
       padding: 3rem 0;
     }
   }
@@ -59,16 +59,39 @@ $post-title-size: 60px;
     }
   }
 
-  .post__tags {
-    color: color(red);
-    display: block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  .post__description {
+    display: none;
 
-    &:before {
-      content: 'Tags: ';
+    @media screen and (min-width: 1025px) {
+      display: block;
+    }
+  }
+
+  .post__author {}
+
+  .post__author-link {
+    font-weight: 700;
+    text-shadow: -1px 1px 1px color(black);
+
+    &:hover {
+      color: color(white);
+    }
+  }
+
+  .post__tags {
+    display: none;
+
+    @media screen and (min-width: 1025px) {
+      color: color(white);
+      display: block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      &:before {
+        content: 'Tags: ';
+      }
     }
   }
 
@@ -80,6 +103,10 @@ $post-title-size: 60px;
 
     &:hover {
       text-decoration: underline;
+    }
+
+    a:hover {
+      color: color(white);
     }
   }
 }

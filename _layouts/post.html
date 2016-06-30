@@ -4,18 +4,23 @@ layout: default
 
 <section class="post-page">
 
-  <article class="post">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post__header" style="background-image: url({{ page.image }});">
+      <img src="{{ page.image }}" itemprop="image" style="display:none;">
       <span class="post__meta">
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%-d/%m/%Y" }}</a>
+        <a href="{{ page.url | prepend: site.baseurl }}" itemprop="datePublished">{{ page.date | date: "%-d/%m/%Y" }}</a>
       </span>
-      <h1 class="post__title">
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      <h1 class="post__title" itemprop="name">
+        <a href="{{ page.url | prepend: site.baseurl }}" rel="bookmark">{{ page.title }}</a>
       </h1>
-      <!--<ul class="post__tags">
+      <p class="post__description">{{ page.description }}</p>
+      <p class="post__author">Por: <a href="/sobre" class="post__author-link" rel="author">Samara Saheli</a>.</p>
+      <ul class="post__tags">
         {% for tag in page.tags %}
-          <li class="post__tag">{{ tag }}</li>
+          <li class="post__tag" itemprop="keywords">
+            <a href="#" rel="category">{{ tag }}</a>
+          </li>
         {% endfor %}
       </ul> <!-- /.post__tags -->
     </header> <!-- /.post__header -->
