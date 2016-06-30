@@ -1,0 +1,36 @@
+/* ============================== *\
+ * Hero
+\* ============================== */
+
+.hero {
+  background-color: color(gray-light);
+  border-radius: 50px;
+  margin: 5rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 850px;
+}
+
+.hero__title {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.hero__description {}
+
+.hero__content {
+  padding: 1rem;
+}
+
+.hero__content .col--half:first-child {
+  border-right: 1px solid color(black);
+}
+
+.hero__input {
+  border: 1px solid color(gray-light);
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: .5rem;
+  width: 80%;
+}
