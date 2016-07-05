@@ -7,7 +7,7 @@ date: 2016-06-05
 categories: ["Casamento"]
 tags: ["Casamento", "Decoração", "Doces"]
 featured: false
-image: /assets/images/posts/casamento01_banner.jpg
+image: http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_banner_cs2kn1.jpg
 ---
 
 Olá pessoal, hoje entro em um clima super romântico para falar sobre um dos dias mais felizes da minha vida: o meu casamento.
@@ -23,7 +23,7 @@ Eu não sou decoradora, nem cerimonialista profissional, mas sou apaixonada por 
 Para contextualizar um pouquinho minhas escolhas sobre cores, estilos e sabores, eu vou contar sobre como tudo foi criado.
 
 <figure>
-  <img src="/assets/images/posts/casamento01_01.jpg" alt="Algumas mulheres da minha família">
+  <img src="http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_01_intvea.jpg" alt="Algumas mulheres da minha família">
   <figcaption>Minha tia Leila, minha avó Otília, minha mãe Cristiane, eu, meu esposo Cassio e minha tia Cláudia.</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Em cima disso, eu e meu esposo (na época, noivo) começamos a trabalhar.
 Nosso casamento foi realizado no interior, pois toda a nossa família (tanto a minha quanto a dele), moram lá. Por isso resolvemos nós mesmos fazer a arte dos convites e enviar por email para os convidados.
 
 <figure>
-  <img src="/assets/images/posts/casamento01_02.jpg" alt="Nosso convite de casamento">
+  <img src="http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_02_uvsxj6.jpg" alt="Nosso convite de casamento">
   <figcaption>Arte do meu convite de casamento.</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Criamos também uma arte para o cardápio do casamento baseada na arte do convit
 Fizemos também uma tag simples para os convidados postarem fotos no Instagram utilizando a _hashtag_ que escolhemos para o casamento (`#samaraecassio`).
 
 <figure>
-  <img src="/assets/images/posts/casamento01_03.jpg" alt="Cardápio e tag">
+  <img src="http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_03_cjinnb.jpg" alt="Cardápio e tag">
   <figcaption>Foto do cardápio impresso junto com a tag que escolhemos para divulgar as fotos do casório.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Faça um trabalho bem feito e você será super bem recomendado, faça algo mal 
 Optei por um belo _naked cake_ de 3 andares com massa de baunilha e recheio de trufa de chocolate. A decoração foi simples, feita com morangos, já no restaurante, pouco antes dos convidados chegarem.
 
 <figure>
-  <img src="/assets/images/posts/casamento01_04.jpg" alt="O bolo de casamento">
+  <img src="http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_04_mfybio.jpg" alt="O bolo de casamento">
   <figcaption>Meu <em>naked cake</em> <3</figcaption>
 </figure>
 
@@ -83,12 +83,12 @@ Decidi não comprar ou fazer docinhos para o dia. Já tinhamos fechado o bolo e 
 Alguns detalhes da festa que eu quero compartilhar com vocês:
 
 <figure>
-  <img src="/assets/images/posts/casamento01_05.jpg" alt="Garrafinhas decoradas nas mesas">
+  <img src="http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_05_mgy2ku.jpg" alt="Garrafinhas decoradas nas mesas">
   <figcaption>Essas garrafinhas eu consegui no hotel onde eu trabalho. Foram decoradas com cordão e mini-lousa que comprei na nossa querida 25 de março.</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/images/posts/casamento01_06.jpg" alt="O buquê e minha avó">
+  <img src="http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_06_xai5aw.jpg" alt="O buquê e minha avó">
   <figcaption>Meu lindo buquê e a mãozinha da minha vovó maravilhosa.</figcaption>
 </figure>
 

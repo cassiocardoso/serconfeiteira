@@ -7,7 +7,7 @@ date: 2016-06-29
 categories: ["Casamento"]
 tags: ["Casamento", "Decoração", "Bolo de Casamento", "Buquê de noiva"]
 featured: true
-image: /assets/images/posts/casamento01_banner.jpg
+image: http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_banner_cs2kn1.jpg
 ---
 
 Olá pessoal, hoje vou dar continuidade à série de posts sobre o meu casamento, para falar de duas coisas que adorei: o bolo e o meu buquê.
