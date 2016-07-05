@@ -105,7 +105,7 @@ $post-title-size: 60px;
  * ============================== */
 
 .post-page .post__footer {
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   width: 90%;
 
   @media only screen and (min-width: $breakpoint-sm) {

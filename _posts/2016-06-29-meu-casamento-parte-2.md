@@ -61,4 +61,26 @@ O grande momento: hora de colocar o buquê à prova.
 
 ## O bolo
 
-Apesar de ter sido uma cerimônia pequena, eu ainda acabei fazendo bastante coisa, por isso algumas coisas tive que deixar de lado e confiar no trabalho de outras pessoas. Uma dessas coisas foi o bolo.
+Apesar de ter sido uma cerimônia pequena, eu ainda acabei fazendo bastante coisa, por isso algumas coisas tive que deixar de lado e confiar no trabalho de outras pessoas. Uma delas foi o bolo.
+
+Optei por um _naked cake_ com massa tradicional, recheado de ganache de chocolate e decorado com morangos. A escolha por um bolo recheado de chocolate, foi por sabermos que iria agradar a maioria dos convidados (além de ser um dos nossos sabores favoritos).
+
+<figure>
+  <img src="" alt="Foto da mesa central com o bolo">
+  <figcaption></figcaption>
+</figure>
+
+O restaurante onde fizemos a comemoração possuia diversos móveis lindos para a decoração e nos emprestou eles, além de nos deixarem organizar o espaço como achamos que seria a melhor forma. Chegamos lá um pouco antes das 11 horas da manhã e conseguimos arrumar tudo da forma como queríamos em pouco menos de 1 hora.
+
+<figure>
+  <img src="" alt="Foto das mesas auxiliares de decoração">
+  <figcaption></figcaption>
+</figure>
+
+Quem me ajudou muito nessa parte foi a minha tia Alessandra, meu esposo e meus pais. Foi um momento que pudemos transmitir mais carinho para os convidados e fiquei muito feliz de poder ter um tempo para conseguir arrumar tudo isso.
+
+O que eu pude sentir naquele dia foi um calor dentro de mim como se meu coração estivesse sendo acalentado e que naquele momento só existisse luz. Eu já não estava mais ansiosa ou preocupada, mas feliz e em paz.
+
+Espero ter transmitido um pouquinho do que senti no dia, e no próximo post falarei sobre as lembrancinhas deste grande dia.
+
+Até breve.
