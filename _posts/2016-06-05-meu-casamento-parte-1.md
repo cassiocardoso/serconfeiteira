@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Meu Casamento<br>Parte 1: Introdução"
+title: "Meu Casamento - Parte 1: Introdução"
+heading: "Meu Casamento<br>Parte 1: Introdução"
 description: "Hoje entro em um clima super romântico para falar sobre um dos dias mais felizes da minha vida: o meu casamento."
 date: 2016-06-05
 categories: ["Casamento"]

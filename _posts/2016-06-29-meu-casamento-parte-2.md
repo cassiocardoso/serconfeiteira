@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Meu Casamento<br>Parte 2: O bolo e o buquê"
+title: "Meu Casamento - Parte 2: O bolo e o buquê"
+heading: "Meu Casamento<br>Parte 2: O bolo e o buquê"
 description: "Continuando a série sobre o meu casamento, hoje vou falar sobre duas coisas que adorei: o bolo e o buquê."
 date: 2016-06-29
 categories: ["Casamento"]
