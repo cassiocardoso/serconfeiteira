@@ -45,3 +45,18 @@ paginate_path: "/blog/pag:num/"
 
 # Build settings
 markdown: kramdown
+
+# Forestry config
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      title: ""
+      heading: ""
+      description: ""
+      categories: []
+      tags: []
+      featured: true
+      image: ""

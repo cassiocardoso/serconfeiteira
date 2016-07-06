@@ -6,7 +6,7 @@ description: "Continuando a série sobre o meu casamento, hoje vou falar sobre d
 date: 2016-06-29
 categories: ["Casamento"]
 tags: ["Casamento", "Decoração", "Bolo de Casamento", "Buquê de noiva"]
-featured: true
+featured: false
 image: http://res.cloudinary.com/serconfeiteira/image/upload/v1467738960/casamento01_banner_cs2kn1.jpg
 ---
 
